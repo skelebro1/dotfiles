@@ -1,12 +1,5 @@
-/*
- *
- * Original Author  : Aditya Shakya
- * Author    : DN-debug
- *
- */
-
 configuration {
-	font:							"Noto sans 12";
+	font:							"Hack 12";
     show-icons:                     true;
 	icon-theme: 					"";
     display-drun: 					"";
@@ -29,8 +22,8 @@ window {
     transparency:                   "real";
     background-color:               #1e1e2e;
     text-color:                     #cdd6f4;
-	border:							0px;
-	border-color:					#89b4fa;
+	border:							1px;
+	border-color:					#45475a;
     border-radius:                  12px;
     height:                         50%;
 	width:							50%;
@@ -41,7 +34,9 @@ window {
 
 
 entry {
-    background-color:               #11111b;
+    background-color:               #181825;
+    border:							1px;
+	border-color:					#45475a;
     text-color:                     white;
     expand:                         false;
     horizontal-align:               50%;

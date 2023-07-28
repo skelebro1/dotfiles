@@ -65,7 +65,7 @@ super + shift + d
 
 #dmenu
 super + d
-    ~/.config/bspwm/launcher/launcher.sh
+	rofi -show drun -theme $HOME/.config/bspwm/rofi/launcher.rasi
 
 #reload sxhkd:
 super + shift + s
