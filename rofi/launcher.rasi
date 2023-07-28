@@ -20,7 +20,7 @@ configuration {
 
 window {
     transparency:                   "real";
-    background-color:               #1e1e2e;
+    background-color:               #1e1e2ee6;
     text-color:                     #cdd6f4;
 	border:							1px;
 	border-color:					#45475a;
@@ -60,7 +60,7 @@ inputbar {
 }
 
 listview {
-    background-color:               #1e1e2e;
+    background-color:               #1e1e2e00;
     padding:                        12px;
     columns:                        5;
     lines:                          5;
