@@ -23,7 +23,7 @@ foreground = #cdd6f4
 primary = #89b4fa
 secondary = #eba0ac
 alert = #f38ba8
-disabled = #7f849c
+disabled = #6c7086
 
 [bar/mainbar-bspwm]
 width = 100%
@@ -74,13 +74,13 @@ override-redirect = true
 type = internal/xworkspaces
 
 label-active = %name%
-; label-active-background = ${colors.background-alt}
-label-active-foreground = ${colors.primary}
+label-active-background = ${colors.primary}
+label-active-foreground = ${colors.background}
 ; label-active-underline= ${colors.primary}
 label-active-padding = 1
 
 label-occupied = %name%
-label-occupied-foreground = ${colors.alert}
+label-occupied-foreground = ${colors.primary}
 label-occupied-padding = 1
 
 label-urgent = %name%
