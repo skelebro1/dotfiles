@@ -11,6 +11,7 @@
 - **File Manager:** [Thunar](https://gitlab.xfce.org/xfce/thunar)
 - **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/)
 - **Launcher:** [Rofi](https://github.com/davatorium/rofi)
+- **Audio Visualizer:** [Cava](https://github.com/karlstav/cava)
 - **Font:** [Hack](https://sourcefoundry.org/hack/)
 
 # Inspiration
