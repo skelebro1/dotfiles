@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# run once function
 function run {
   if ! pgrep $1 ;
   then
@@ -7,23 +8,23 @@ function run {
   fi
 }
 
+# launch sxhkd
 sxhkd -c $HOME/.config/bspwm/sxhkdrc &
 
+# launch polybar
 $HOME/.config/bspwm/polybar/launch.sh &
 
-dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
+# set default cursor shape
 xsetroot -cursor_name left_ptr &
 
-feh --bg-fill $HOME/.config/bspwm/wall.jpeg &
-run variety &
-run nm-applet &
-run pamac-tray &
-run xfce4-power-manager &
-numlockx on &
-blueberry-tray &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-/usr/lib/xfce4/notifyd/xfce4-notifyd &
-run volumeicon &
-#killall komorebi &
-#run komorebi &
+# set wallpaper
+feh --bg-fill $HOME/.config/bspwm/wallpaper.jpeg &
+
+# launch picom
 picom --config $HOME/.config/bspwm/picom.conf &
+
+# launch polkit gnome
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# launch notifyd
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
