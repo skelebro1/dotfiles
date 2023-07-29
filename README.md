@@ -1,6 +1,6 @@
 ![screenshot](screenshot.png)
 
-# Programs
+# Application
 - **Window Manager:** [Bspwm](https://github.com/baskerville/bspwm/)
 - **Shell:** [Zsh](https://zsh.sourceforge.io/) / [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 - **Terminal:** [Kitty](https://github.com/kovidgoyal/kitty)
@@ -13,6 +13,16 @@
 - **Launcher:** [Rofi](https://github.com/davatorium/rofi)
 - **Audio Visualizer:** [Cava](https://github.com/karlstav/cava)
 - **Font:** [Hack](https://sourcefoundry.org/hack/)
+
+# Installation
+
+## Automatic
+- Work in progress...
+
+## Manual
+- Clone this repository
+- Copy all the files to `$HOME/.config/bspwm` folder
+- Enjoy!
 
 # Inspiration
 - [Erik Dubois](https://github.com/erikdubois/)
