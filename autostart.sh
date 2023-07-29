@@ -14,7 +14,7 @@ $HOME/.config/bspwm/polybar/launch.sh &
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 xsetroot -cursor_name left_ptr &
 
-feh --bg-fill /home/skele/Pictures/wall.jpeg &
+feh --bg-fill $HOME/.config/bspwm/wall.jpeg &
 run variety &
 run nm-applet &
 run pamac-tray &
