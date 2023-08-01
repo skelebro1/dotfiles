@@ -21,6 +21,7 @@
 
 ## Manual
 - Clone this repository
+- Install all the applications
 - Copy all the files to `$HOME/.config/bspwm` folder
 - Enjoy!
 
