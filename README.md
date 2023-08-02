@@ -1,18 +1,19 @@
 ![screenshot](screenshot.png)
 
 # Application
-- **Window Manager:** [Bspwm](https://github.com/baskerville/bspwm/)
-- **Shell:** [Zsh](https://zsh.sourceforge.io/) / [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
-- **Terminal:** [Kitty](https://github.com/kovidgoyal/kitty)
+- **Audio Visualizer:** [Cava](https://github.com/karlstav/cava)
 - **Bar:** [Polybar](https://github.com/polybar/polybar)
-- **Theme:** [Catppuccin](https://github.com/catppuccin/catppuccin)
-- **Wallpaper Setter:** [Feh](https://github.com/derf/feh)
+- **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/)
 - **Compositor:** [Picom](https://github.com/yshui/picom/)
 - **File Manager:** [Thunar](https://gitlab.xfce.org/xfce/thunar)
-- **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/)
-- **Launcher:** [Rofi](https://github.com/davatorium/rofi)
-- **Audio Visualizer:** [Cava](https://github.com/karlstav/cava)
 - **Font:** [Hack](https://sourcefoundry.org/hack/)
+- **Launcher:** [Rofi](https://github.com/davatorium/rofi)
+- **Shell:** [Zsh](https://zsh.sourceforge.io/) / [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+- **System Information Tool:** [Pfetch](https://github.com/dylanaraps/pfetch)
+- **Terminal:** [Kitty](https://github.com/kovidgoyal/kitty)
+- **Theme:** [Catppuccin](https://github.com/catppuccin/catppuccin)
+- **Wallpaper Setter:** [Feh](https://github.com/derf/feh)
+- **Window Manager:** [Bspwm](https://github.com/baskerville/bspwm/)
 
 # Installation
 
