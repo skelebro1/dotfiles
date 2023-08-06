@@ -40,7 +40,7 @@ super + m
 
 #kitty
 super + Return
-    kitty -1
+    kitty -1 -c $HOME/.config/bspwm/kitty.conf
 
 #Xkill
 super + Escape
