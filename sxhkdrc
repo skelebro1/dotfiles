@@ -200,12 +200,12 @@ super + shift + s
 #    variety --resume
 
 #Xfce appfinder
-alt + F2
-    xfce4-appfinder --collapsed
+#alt + F2
+#    xfce4-appfinder --collapsed
 
 #Xfce4-appfinder
-alt + F3
-    xfce4-appfinder
+#alt + F3
+#    xfce4-appfinder
 
 #Xlunch app launcher
 #alt + F5
@@ -241,25 +241,25 @@ alt + shift + u
 #################################################################
 
 #Xcfe4-TaskManager
-ctrl + shift + Escape
-    xfce4-taskmanager
+#ctrl + shift + Escape
+#    xfce4-taskmanager
 
 
 #################################################################
 #     SCREENSHOTS
 #################################################################
 
-#Scrot
+#flameshot full
 Print
      flameshot full
 
-#screeenshooter
+#flameshot gui
 ctrl + Print
      flameshot gui
 
 #Gnome-Screenshot
-ctrl + shift + Print
-     gnome-screenshot -i
+#ctrl + shift + Print
+#     gnome-screenshot -i
 
 
 #################################################################
@@ -324,14 +324,6 @@ super + y
 ##################   DESKTOP SPECIFIC    ########################
 #################################################################
 #################################################################
-
-#################################################################
-# CTRL + ALT KEYS
-#################################################################
-
-#Picom Toggle
-ctrl + alt + o
-    ~/.config/bspwm/scripts/picom-toggle.sh
 
 #################################################################
 # SUPER + KEYS
@@ -472,24 +464,24 @@ super + ctrl + {_,shift +}{1-9}
 #################################################################
 
 #Focus selected desktop
-alt + Tab
-	bspc desktop -f '^{1-9,10}'
+#alt + Tab
+#	bspc desktop -f '^{1-9,10}'
 
 	#Focus selected desktop
-alt + shift + Tab
-	bspc desktop -f '^{1-9,10}'
+#alt + shift + Tab
+#	bspc desktop -f '^{1-9,10}'
 
 #Rotate desktop
-alt + space
-	bspc node @/ --rotate {90,-90}
+#alt + space
+#	bspc node @/ --rotate {90,-90}
 
 #################################################################
 # ALT + SHIFT KEYS
 #################################################################
 
 # Expand tiled space
-alt + shift + {h,j,k,l}
-	bspc node {@west -r -10,@south -r +10,@north -r -10,@east -r +10}
+#alt + shift + {h,j,k,l}
+#	bspc node {@west -r -10,@south -r +10,@north -r -10,@east -r +10}
 
 #################################################################
 #################################################################
