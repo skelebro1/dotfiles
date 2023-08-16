@@ -55,8 +55,8 @@ separator-foreground = ${colors.disabled}
 font-0 = hack:size=12;3
 
 modules-left = xworkspaces 
-modules-center = date
-modules-right = filesystem memory cpu wlan 
+modules-center = date 
+modules-right = filesystem memory cpu 
 
 cursor-click = pointer
 
