@@ -28,7 +28,7 @@ super + r
 
 #Xfce Terminal
 super + t
-   alacritty
+    alacritty
 
 #Pavucontrol
 super + v
