@@ -61,9 +61,9 @@ super + shift + Return
 
 #dmenu
 super + shift + d
-	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+	dmenu_run -i -nf '#cdd6f4' -nb '#1e1e2e' -sf '#1e1e2e' -sb '#89b4fa' -p 'search:' -fn 'hack:pixelsize=14'
 
-#dmenu
+#rofi
 super + d
 	rofi -show drun -theme $HOME/.config/bspwm/rofi/launcher.rasi
 
