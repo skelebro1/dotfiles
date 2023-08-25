@@ -37,12 +37,12 @@ entry {
     background-color:               #181825;
     border:							1px;
 	border-color:					#45475a;
-    text-color:                     white;
+    text-color:                     "#cdd6f4";
     expand:                         false;
     horizontal-align:               50%;
-    placeholder:                    "Type to search";
+    placeholder:                    "search...";
     margin:                         2% 0% 0% 16%;
-    padding:                        1.5% 5.5%;
+    padding:                        12px 100px;
     blink:                          true;
     border-radius: 12px 12px 12px 12px;
 }
@@ -56,7 +56,7 @@ inputbar {
     border-radius:                  0px;
 	border-color:					@ac;
     margin:                         0% 0% 0% 0%;
-    padding:                        0.0%;
+    padding:                        1% 0% 0% 0%;
 }
 
 listview {
@@ -76,7 +76,7 @@ mainbox {
     border-radius:                  0% 0% 0% 0%;
 	border-color:					@al;
     children:                       [ inputbar, listview ];
-    spacing:                       	0%;
+    spacing:                      	2%;
     padding:                        0%;
 }
 
@@ -85,7 +85,7 @@ element {
     text-color:                     #cdd6f4;
     orientation:                    vertical;
     border-radius:                  5%;
-    padding:                        1% 1% 1% 1%;
+    padding:                        10px 0px 10px 0px;
 }
 
 element-icon {
@@ -101,13 +101,13 @@ element-text {
 }
 
 element selected {
-    background-color:               #313244;
-    text-color:                     #ffffff;
+    background-color:               #89b4fa;
+    text-color:                     #cdd6f4;
 	border:							0% 0% 0% 0%;
     border-radius:                  12px;
     border-color:                  	@al;
 }
 
 element-text selected {
-    text-color:                     #89b4fa;
+    text-color:                     #1e1e2e;
 }
