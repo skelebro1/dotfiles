@@ -10,41 +10,21 @@ super + e
 super + w
     firefox
 
-#Conky-toggle
-#super + c
-#    conky-toggle
-
-#Htop
-#super + h
-#    urxvt 'htop task manager' -e htop
-
 #archlinux-logout
 super + x
     archlinux-logout
-
-#Rofi theme selector
-super + r
-    rofi-theme-selector
+    
+# exit bspwm
+super + shift + x
+    bspc quit
 
 #Xfce Terminal
 super + t
     alacritty
 
-#Pavucontrol
-super + v
-    pavucontrol
-
-#Pragha
-super + m
-    pragha
-
 #kitty
 super + Return
     kitty -1 -c $HOME/.config/bspwm/kitty.conf
-
-#Xkill
-super + Escape
-    xkill
 
 #################################################################
 # SUPER + SHIFT KEYS
@@ -68,7 +48,7 @@ super + d
 	rofi -show drun -theme $HOME/.config/bspwm/rofi/launcher.rasi
 
 #reload sxhkd:
-super + shift + s
+super + shift + r
 	pkill -USR1 -x sxhkd
 
 #Keyboard dependent
@@ -337,9 +317,13 @@ super + f
 super + p
 	bspc node --state \~pseudo_tiled
 
-#kill
+# close window
 super + q
 	bspc node -c
+
+# hide window
+super + v
+	/home/skele/.config/bspwm/winhide.sh
 
 #################################################################
 # SUPER KEYS
@@ -399,16 +383,8 @@ super + ctrl + space
 
 
 #Reload bspwm
-super + shift + r
+super + r
 	~/.config/bspwm/bspwmrc
-
-#kill
-super + shift + q
-	bspc node -c
-
-#Logout
-#super + shift + x
-#	bspc quit
 
 # Focus/swap windows by direction
 super + {_,shift + }{h,j,k,l}
