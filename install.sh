@@ -19,7 +19,7 @@ install_packages() {
     distro="$1"
     case "$distro" in
         "arch")
-            sudo pacman -Syu
+            sudo pacman -Sy
             sudo pacman -S --noconfirm polybar picom thunar ttf-hack rofi zsh kitty feh bspwm
             ;;
         "fedora")
@@ -28,7 +28,6 @@ install_packages() {
             ;;
         "debian")
             sudo apt update
-            sudo apt upgrade -y
             sudo apt install -y polybar picom thunar fonts-hack rofi zsh kitty feh bspwm
             ;;
         *)
