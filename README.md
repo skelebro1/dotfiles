@@ -1,4 +1,4 @@
-![screenshot](screenshot.png)
+![screen](screen.png)
 
 # Application
 - **Audio Visualizer:** [Cava](https://github.com/karlstav/cava)
