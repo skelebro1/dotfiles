@@ -24,6 +24,7 @@
 - Clone this repository.
 - Install all the applications.
 - Copy all the files to `$HOME/.config/bspwm` directory.
+- Add your favourite images in the `wall` folder.
 - Enjoy!
 
 # Inspiration
