@@ -231,16 +231,11 @@ alt + shift + u
 
 #flameshot full
 Print
-     flameshot full
+     flameshot screen
 
 #flameshot gui
 ctrl + Print
      flameshot gui
-
-#Gnome-Screenshot
-#ctrl + shift + Print
-#     gnome-screenshot -i
-
 
 #################################################################
 #     MULTIMEDIA KEYS
