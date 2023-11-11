@@ -17,9 +17,8 @@ $HOME/.config/bspwm/polybar/launch.sh &
 # set default cursor shape
 xsetroot -cursor_name left_ptr &
 
-# set random wallpaper
-feh --bg-fill "$(find "$HOME/.config/bspwm/wall/" -type f \( -name "*.png" -o -name "*.jpg" -o -name "*.jpeg" \) | shuf -n 1)"
-
+# set wallpaper
+feh --bg-fill $HOME/.config/bspwm/wall.png
 # launch picom
 picom --config $HOME/.config/bspwm/picom.conf &
 
