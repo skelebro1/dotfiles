@@ -28,3 +28,6 @@ picom --config $HOME/.config/bspwm/picom.conf &
 
 # launch notifyd
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
+
+# launch variety
+run variety &
