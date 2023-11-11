@@ -18,10 +18,6 @@ super + x
 super + shift + x
     bspc quit
 
-#Xfce Terminal
-super + t
-    alacritty
-
 #kitty
 super + Return
     kitty -1 -c $HOME/.config/bspwm/kitty.conf
@@ -147,49 +143,14 @@ super + shift + r
 # ALT + ... KEYS
 #################################################################
 
-##Wallpaper trash
-#alt + t
-#    variety -t
-#
-##Wallpaper next
-#alt + n
-#    variety -n
-#
-##Wallpaper previous
-#alt + p
-#    variety -p
-#
-##Wallpaper favorite
-#alt + f
-#    variety -f
-#
-##Wallpaper previous
-#alt + Left
-#    variety -p
-#
-##Wallpaper next
-#alt + Right
-#    variety -n
-#
-##Wallpaper toggle-pause
-#alt + Up
-#    variety --toggle-pause
-#
-##Wallpaper resume
-#alt + Down
-#    variety --resume
+#Wallpaper previous
+super + p
+    variety -p
 
-#Xfce appfinder
-#alt + F2
-#    xfce4-appfinder --collapsed
+#Wallpaper next
+super + n
+    variety -n
 
-#Xfce4-appfinder
-#alt + F3
-#    xfce4-appfinder
-
-#Xlunch app launcher
-#alt + F5
-#    xlunch --config ~/.config/xlunch/default.conf --input ~/.config/xlunch/entries.dsv   
 
 #################################################################
 # CONTROL + SHIFT KEYS
@@ -280,11 +241,19 @@ super + y
 #################################################################
 
 #Toggle fullscreen of window
-super + f
+super + shift + f
 	bspc node --state \~fullscreen
 
-# Toggle pseudo tiling of window
-super + p
+#Toggle floating of window
+super + f
+	bspc node --state \~floating
+
+#Toggle tiled of window
+super + t
+	bspc node --state \~tiled
+
+#Toggle pseudo_tiled of window
+super + shift + t
 	bspc node --state \~pseudo_tiled
 
 # close window
