@@ -22,126 +22,9 @@ super + shift + x
 super + Return
     kitty -1 -c $HOME/.config/bspwm/kitty.conf
 
-#################################################################
-# SUPER + SHIFT KEYS
-#################################################################
-
-#Xfce Terminal
-super + shift + Return
-	xfce4-terminal
-
-#Keyboard dependent
-#File-Manager
-#super + shift + KP_Enter
-#	thunar
-
-#dmenu
-super + shift + d
-	dmenu_run -i -nf '#cdd6f4' -nb '#1e1e2e' -sf '#1e1e2e' -sb '#89b4fa' -p 'search:' -fn 'hack:pixelsize=14'
-
 #rofi
 super + d
 	rofi -show drun -theme $HOME/.config/bspwm/rofi/launcher.rasi
-
-#reload sxhkd:
-super + shift + r
-	pkill -USR1 -x sxhkd
-
-#Keyboard dependent
-#super + shift + KP_Enter
-#	thunar
-
-
-#################################################################
-# CONTROL + ALT KEYS
-#################################################################
-
-#arcolinux-welcome-app
-#ctrl + alt + w
-#     arcolinux-welcome-app
-
-#archlinux-tweak-tool
-#ctrl + alt + e
-#    archlinux-tweak-tool
-
-#conky-rotate
-#ctrl + alt + Next
-#     conky-rotate -n
-
-#conky-rotate
-#ctrl + alt + Prior
-#    conky-rotate -p
-
-#File-Manager
-#ctrl + alt + b
-#     thunar
-
-#Catfish
-#ctrl + alt + c
-#     catfish
-
-#Chromium
-#ctrl + alt + g
-#    chromium -no-default-browser-check
-
-#Firefox
-#ctrl + alt + f
-#     firefox
-
-#Nitrogen
-#ctrl + alt + i
-#     nitrogen
-
-#archlinux-logout
-#ctrl + alt + k
-#     archlinux-logout
-
-#archlinux-logout
-#ctrl + alt + l
-#    archlinux-logout
-
-#Pamac-manager
-#ctrl + alt + p
-#    pamac-manager
-
-#Xfce4-settings-manager
-#ctrl + alt + m
-#     xfce4-settings-manager
-
-#Pulse Audio Control
-#ctrl + alt + u
-#     pavucontrol
-
-#Rofi theme selector
-#ctrl + alt + r
-#  rofi-theme-selector
-
-#Spotify
-#ctrl + alt + s
-#   spotify
-
-#alacritty
-#ctrl + alt + t
-#    alacritty
-
-#Vivaldi
-#ctrl + alt + v
-#    vivaldi-stable
-
-#Xfce4-appfinder
-#ctrl + alt + a
-#    xfce4-appfinder
-
-
-#Keyboard dependent
-#alacritty
-##ctrl + alt + KP_Enter
-#     alacritty
-
-
-#################################################################
-# ALT + ... KEYS
-#################################################################
 
 #Wallpaper previous
 super + p
@@ -151,15 +34,29 @@ super + p
 super + n
     variety -n
 
-
 #################################################################
-# CONTROL + SHIFT KEYS
+# SUPER + SHIFT KEYS
 #################################################################
 
-#Xcfe4-TaskManager
-#ctrl + shift + Escape
-#    xfce4-taskmanager
+#Xfce Terminal
+super + shift + Return
+	xfce4-terminal
 
+#dmenu
+super + shift + d
+	dmenu_run -i -nf '#cdd6f4' -nb '#1e1e2e' -sf '#1e1e2e' -sb '#89b4fa' -p 'search:' -fn 'hack:pixelsize=14'
+
+#reload sxhkd:
+super + shift + r
+	pkill -USR1 -x sxhkd
+
+#Wallpaper toggle-pause
+super + shift + p
+    variety --toggle-pause
+
+#Wallpaper resume
+super + shift + n
+    variety --resume
 
 #################################################################
 #     SCREENSHOTS

@@ -19,6 +19,7 @@ xsetroot -cursor_name left_ptr &
 
 # set wallpaper
 feh --bg-fill $HOME/.config/bspwm/wall.png
+
 # launch picom
 picom --config $HOME/.config/bspwm/picom.conf &
 

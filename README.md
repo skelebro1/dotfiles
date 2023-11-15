@@ -1,7 +1,6 @@
 ![screen](screen.png)
 
 # Application
-- **Audio Visualizer:** [Cava](https://github.com/karlstav/cava)
 - **Bar:** [Polybar](https://github.com/polybar/polybar)
 - **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/)
 - **Compositor:** [Picom](https://github.com/yshui/picom/)
