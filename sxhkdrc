@@ -67,7 +67,7 @@ Print
      flameshot screen
 
 #flameshot gui
-ctrl + Print
+super + Print
      flameshot gui
 
 #################################################################
