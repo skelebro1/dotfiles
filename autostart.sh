@@ -18,7 +18,7 @@ $HOME/.config/bspwm/polybar/launch.sh &
 xsetroot -cursor_name left_ptr &
 
 # set wallpaper
-feh --bg-fill $HOME/.config/bspwm/wall.png
+feh --bg-fill $HOME/.config/bspwm/wall.jpg
 
 # launch picom
 picom --config $HOME/.config/bspwm/picom.conf &

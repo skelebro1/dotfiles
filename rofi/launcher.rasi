@@ -19,11 +19,12 @@ configuration {
 
 window {
     transparency:                   "real";
-    background-color:               #1e1e2ee6;
+/*    background-color:               #1e1e2ee6;*/
+    background-color:               #1e1e2e;
     text-color:                     #cdd6f4;
-	border:							1px;
+/*	border:							1px;*/
 	border-color:					#45475a;
-    border-radius:                  12px;
+/*    border-radius:                  12px;*/
     height:                         50%;
 	width:							40%;
     location:                       center;
@@ -43,7 +44,7 @@ entry {
     margin:                         2% 0% 0% 11%;
     padding:                        12px 100px;
     blink:                          true;
-    border-radius: 12px 12px 12px 12px;
+/*    border-radius: 12px 12px 12px 12px;*/
 }
 
 inputbar {
@@ -83,7 +84,7 @@ element {
     background-color:               @al;
     text-color:                     #cdd6f4;
     orientation:                    vertical;
-    border-radius:                  5%;
+/*    border-radius:                  5%;*/
     padding:                        10px 0px 10px 0px;
 }
 
@@ -103,7 +104,7 @@ element selected {
     background-color:               #89b4fa;
     text-color:                     #cdd6f4;
 	border:							0% 0% 0% 0%;
-    border-radius:                  12px;
+/*    border-radius:                  12px;*/
     border-color:                  	@al;
 }
 

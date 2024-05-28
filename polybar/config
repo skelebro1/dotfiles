@@ -39,7 +39,7 @@ line-size = 3pt
 
 border-size = 0
 ; border-left-size = 30
-border-bottom-size = 1
+; border-bottom-size = 1
 ; border-top-size = 12
 ; border-right-size = 30
 border-color = #45475a
