@@ -18,12 +18,12 @@
 
 [colors]
 background = #1e1e2e
-background-alt = #313244
+background-alt = #585b70
 foreground = #cdd6f4
 primary = #89b4fa
-secondary = #eba0ac
-alert = #f38ba8
-disabled = #6c7086
+secondary = #f38ba8
+alert = #ff0000
+disabled = #000000
 
 [bar/mainbar-bspwm]
 width = 100%
@@ -42,7 +42,7 @@ border-size = 0
 ; border-bottom-size = 1
 ; border-top-size = 12
 ; border-right-size = 30
-border-color = #45475a
+border-color = ${colors.primary}
 
 padding-left = 0
 padding-right = 1
