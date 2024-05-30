@@ -23,7 +23,7 @@ foreground = #cdd6f4
 primary = #89b4fa
 secondary = #f38ba8
 alert = #ff0000
-disabled = #000000
+disabled = #585b70
 
 [bar/mainbar-bspwm]
 width = 100%
