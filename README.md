@@ -2,7 +2,7 @@
 
 # Application
 - **Bar:** [Polybar](https://github.com/polybar/polybar)
-- **Browser:** [Firefox](https://www.mozilla.org/en-US/firefox/)
+- **Browser:** [Brave](https://github.com/brave/brave-browser)
 - **Compositor:** [Picom](https://github.com/yshui/picom/)
 - **File Manager:** [Thunar](https://gitlab.xfce.org/xfce/thunar)
 - **Font:** [Hack](https://sourcefoundry.org/hack/)
