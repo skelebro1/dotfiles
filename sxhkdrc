@@ -8,11 +8,11 @@ super + e
 
 #Browser
 super + w
-    brave
+    firefox
 
 #Browser
 super + shift + w
-    firefox
+    brave
 
 #archlinux-logout
 super + x
