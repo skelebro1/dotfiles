@@ -1,4 +1,5 @@
-![screen](screen.png)
+![screen1](screen1.png)
+![screen2](screen2.png)
 
 # Application
 - **Bar:** [Polybar](https://github.com/polybar/polybar)
