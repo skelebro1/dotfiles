@@ -25,6 +25,10 @@
 - Copy all the files to `$HOME/.config/bspwm` directory.
 - Enjoy!
 
+## Optional
+- Save an image as `wall.png` in `$HOME/Pictures` to set your wallpaper.
+- If no image is saved, the default wallpaper will be used.
+
 # Inspiration
 - [Erik Dubois](https://github.com/erikdubois/)
 - [Aditya Shakya](https://github.com/adi1090x)
