@@ -23,7 +23,7 @@ foreground = #cdd6f4
 primary = #89b4fa
 secondary = #f38ba8
 alert = #ff0000
-disabled = #585b70
+disabled = #000000
 
 [bar/mainbar-bspwm]
 width = 100%
@@ -50,7 +50,7 @@ padding-right = 1
 module-margin = 1
 
 separator = /
-separator-foreground = ${colors.disabled}
+separator-foreground = ${colors.background-alt}
 
 font-0 = hack:size=12;3
 
@@ -70,6 +70,8 @@ wm-restack = bspwm
 
 override-redirect = true
 
+; bottom = true
+
 [module/xworkspaces]
 type = internal/xworkspaces
 
@@ -88,7 +90,7 @@ label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
 
 label-empty = %name%
-label-empty-foreground = ${colors.disabled}
+label-empty-foreground = ${colors.background-alt}
 label-empty-padding = 1
 
 [module/xwindow]
@@ -101,10 +103,10 @@ interval = 25
 
 mount-0 = /
 
-label-mounted = %{F#89b4fa}MEM %{F-}%percentage_used%%
+label-mounted = %{F#89b4fa}MEM %{F}%percentage_used%%
 
 label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.disabled}
+label-unmounted-foreground = ${colors.background-alt}
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -116,7 +118,7 @@ format-volume = <label-volume>
 label-volume = %percentage%%
 
 label-muted = muted
-label-muted-foreground = ${colors.disabled}
+label-muted-foreground = ${colors.background-alt}
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -165,8 +167,8 @@ label-connected = %{F#F0C674}%ifname%%{F-} %local_ip%
 type = internal/date
 interval = 1
 
-date = %I:%M %p
-date-alt = %d %b %Y 
+date = %I:%M %p  
+date-alt = %a %{F#585b70}/%{F89b4fa} %d %b
 
 label =%date%
 
