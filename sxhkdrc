@@ -87,12 +87,20 @@ super + space
     playerctl play-pause
 
 #Next
-super + Right
+super + shift + Right
     playerctl next
 
 #Previous
-super + Left
+super + shift + Left
     playerctl previous
+
+#Position +
+super + Right
+    playerctl position 5+
+
+#Position -
+super + Left
+    playerctl position 5-
 
 #########################
 #        POLYBAR        #
