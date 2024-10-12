@@ -30,14 +30,6 @@ super + Return
 super + d
 	rofi -show drun -theme $HOME/.config/bspwm/rofi/launcher.rasi
 
-#Wallpaper previous
-super + p
-    variety -p
-
-#Wallpaper next
-super + n
-    variety -n
-
 #################################################################
 # SUPER + SHIFT KEYS
 #################################################################
@@ -79,49 +71,28 @@ super + Print
 #################################################################
 
 #Raises volume
-XF86AudioRaiseVolume
-    amixer -D pulse set Master 10%+
+super + Up
+    amixer -D pulse set 'Master' 5%+
 
 #Lowers volume
-XF86AudioLowerVolume
-    amixer -D pulse set Master 10%-
+super + Down
+    amixer -D pulse set 'Master' 5%-
 
 #Mute
-XF86AudioMute
-    amixer -D pulse set Master 1+ toggle
-
-#Playerctl works for Pragha, Spotify and others
-#Delete the line for playerctl if you want to use mpc
-#and replace it with the corresponding code
-#mpc works for e.g.ncmpcpp
-#mpc toggle
-#mpc next
-#mpc prev
-#mpc stop
+super + m
+    amixer -D pulse set 'Master' 1+ toggle
 
 #PLAY
-XF86AudioPlay
+super + space
     playerctl play-pause
 
 #Next
-XF86AudioNext
+super + Right
     playerctl next
 
-#previous
-XF86AudioPrev
+#Previous
+super + Left
     playerctl previous
-
-#Stop
-XF86AudioStop
-    playerctl stop
-
-#Brightness up
-XF86MonBrightnessUp
-    xbacklight -inc 10
-
-#Brightness down
-XF86MonBrightnessDown
-    xbacklight -dec 10
 
 #########################
 #        POLYBAR        #
@@ -178,8 +149,8 @@ super + bracket{left,right}
 	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 5 ))
 
 # set the window state
-super + space
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+#super + space
+#	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # Move focus to other monitor
 super + BackSpace
