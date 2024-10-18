@@ -27,7 +27,7 @@
 - Enjoy!
 
 ## Optional
-- Save an image as `wall.png` in `$HOME/Pictures` to set your wallpaper.
+- Save an image as `wall.png` in `$HOME/Pictures` to set your own wallpaper!
 - If no image is saved, the default wallpaper will be used.
 
 # Inspiration
