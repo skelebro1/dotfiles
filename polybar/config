@@ -70,7 +70,7 @@ wm-restack = bspwm
 
 override-redirect = true
 
-; bottom = true
+bottom = true
 
 [module/xworkspaces]
 type = internal/xworkspaces
